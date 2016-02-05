@@ -1,0 +1,177 @@
+/* 
+    Created on : 14-Oct-2014, 11:32:12
+    Author     : Ryan
+*/
+
+@import "variables.less";
+@import "mixins.less";
+@import "../fonts/restaurant-manager-icons/style.less";
+
+#syn_restaurant_manager{
+
+    /* =Form
+    -------------------------------------------------------------- */
+    .synth-form{
+
+        label{
+            &.error{
+                color: red;
+                width: 100%;
+                font-size: 90%;
+
+                &:before{
+                    display: inline;
+                    width: auto;
+                    height: auto;
+                    line-height: normal;
+                    vertical-align: baseline;
+                    background-image: none;
+                    background-position: 0% 0%;
+                    background-repeat: repeat;
+                    margin-top: 0;
+                    font-family: FontAwesome;
+                    font-weight: normal;
+                    font-style: normal;
+                    text-decoration: inherit;
+                    -webkit-font-smoothing: antialiased;
+                    content: "\f057";
+                    margin-right: 4px;
+                }
+            }
+        }
+        .form-field{
+            overflow: auto;
+            margin-bottom: 20px;
+        }
+        .form-label{
+            display: inline-block;
+            width: 100%;
+            margin: 0;
+
+            label{
+                width: 100%;            
+            }
+        }
+        .form-control{
+            display: inline-block;
+            width: 90%;
+            margin: 0;
+
+            .inline-error{
+                color: red;
+                display: none;
+            }
+            textarea{
+                height: 100px;
+            }
+        }
+        .captcha{
+            position: relative;
+            width: 30%;
+
+            .captcha-sum{
+                position: absolute;
+                display: inline-block;
+                padding: 8px 6px;
+                font-weight: bold;
+            }
+            .captcha-result{
+                padding-left: 60px;
+            }
+        }
+
+        input[type=text],
+        textarea{
+            width: 100%;
+        }
+        label{
+            input[type="checkbox"]{
+                position: relative;
+                vertical-align: middle;
+                bottom: 1px;
+                margin: 0 5px 0 0;
+            }
+        }
+    }
+}
+
+/* =Reservation form timepicker
+-------------------------------------------------------------- */
+#reservation_time_root{
+    .picker__holder{
+        width: 100px;
+    }
+    .picker__list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li,
+    .picker__list-item{
+        margin: 0;
+    }
+    .picker__list-item--disabled{
+        display: none !important;
+    }  
+    .picker__button--clear{
+        margin: 10px auto;
+    }
+}
+
+/*Restaurant Menu*/
+.syn-restaurant-menu{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    .restaurant-menu-item{
+        margin: 0;
+        padding: 0;
+    }
+    .wp-post-image{
+        float: left;
+        width: 150px;
+        margin: 0 20px 20px 0;
+    }
+    .syn-menu-title{
+        font-weight: bold;
+        overflow: hidden;
+    } 
+    .syn-menu-content{
+        margin: 0 0 30px 0;
+        padding: 0;
+        overflow: hidden;
+        .clearfix();
+    }
+    .syn-menu-excerpt{
+        float: left;
+        display: inline-block;
+        width: 70%;
+    }
+    .syn-menu-price{
+        float: right;
+        display: inline-block;
+        width: 20%;
+        text-align: right;
+    }
+    .syn-menu-properties{
+        clear: both;
+        display: block;
+
+        span{
+            padding: 0 10px;
+        }
+        span:first-child{
+            padding: 0 10px 0 0;
+        }
+    }
+    .syn-spice-rating{
+        .rating-star{
+            padding: 0;
+        }
+        .rating-star:first-child{
+            padding: 0;
+        }
+    }
+}

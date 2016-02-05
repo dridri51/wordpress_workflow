@@ -1,0 +1,92 @@
+/*
+	TABLE OF CONTENTS
+	========================
+	1.	ICON FONTS ( ICOMOON )
+	2.	RESTAURANT ADMIN MENU
+	3.	RESTAURANT SETTING
+*/
+
+/*===========================================
+	1.	ICON FONTS ( ICOMOON )
+===========================================*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-3p90wu');
+	src:url('../fonts/icomoon.eot?#iefix-3p90wu') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-3p90wu') format('woff'),
+		url('../fonts/icomoon.ttf?-3p90wu') format('truetype'),
+		url('../fonts/icomoon.svg?-3p90wu#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	vertical-align: top;
+}
+
+
+/*===========================================
+	2.	RESTAURANT ADMIN MENUS
+===========================================*/
+#menu-posts-olr_restaurant .wp-menu-image::before{
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\e9a3";
+	
+	
+}
+
+/*===========================================
+	3.	RESTAURANT SETTING
+===========================================*/
+.icon-global:before {
+	content: "\e600";
+}
+
+.icon-many-size:before {
+	content: "\e601";
+	font-size: 33px;
+    vertical-align: top;
+}
+
+.icon-one-size:before {
+	content: "\e602";
+	font-size: 33px;
+    vertical-align: top;
+}
+
+.icon-edit:before {
+	content: "\e905";
+}
+
+.icon-captcha:before {
+	content: "\e984";
+}
+
+.icon-key:before {
+	content: "\e98e";
+}
+
+.icon-table-size:before {
+	content: "\ea61";
+}

@@ -1,0 +1,1001 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Online Reservation v1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-12-18 11:45:14+0000\n"
+"Last-Translator: admin <solweder1@yahoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: INDONESIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: helper/helper_functions - Copy.php:135
+#: helper/helper_functions.php:200
+#: helper/helper_functions2.php:160
+#@ online-reservation
+msgid "Booking Table"
+msgstr ""
+
+#: helper/helper_functions - Copy.php:145
+#: helper/helper_functions.php:210
+#: helper/helper_functions2.php:207
+#: restaurant reservation/admin/admin.php:201
+#@ online-reservation
+msgid "Persons"
+msgstr ""
+
+#: helper/helper_functions - Copy.php:149
+#: helper/helper_functions.php:214
+#: helper/helper_functions2.php:211
+#: restaurant reservation/admin/admin.php:226
+#@ online-reservation
+msgid "Date"
+msgstr ""
+
+#: helper/helper_functions - Copy.php:155
+#: helper/helper_functions.php:220
+#: helper/helper_functions2.php:217
+#@ online-reservation
+msgid "Time"
+msgstr ""
+
+#: helper/helper_functions - Copy.php:178
+#: helper/helper_functions.php:243
+#: helper/helper_functions2.php:242
+#@ online-reservation
+msgid "Required fields"
+msgstr ""
+
+#: helper/helper_functions - Copy.php:194
+#: helper/helper_functions.php:259
+#: helper/helper_functions2.php:140
+#@ online-reservation
+msgid "Personal Information"
+msgstr ""
+
+#: helper/helper_functions - Copy.php:197
+#: helper/helper_functions.php:262
+#: helper/helper_functions2.php:143
+#: restaurant reservation/admin/add-custom-field-quick-edit-menu.php:103
+#: restaurant reservation/admin/admin.php:195
+#: restaurant reservation/admin/admin.php:227
+#@ online-reservation
+msgid "Name"
+msgstr ""
+
+#: helper/helper_functions - Copy.php:201
+#: helper/helper_functions.php:266
+#: helper/helper_functions2.php:147
+#@ online-reservation
+msgid "Email Address"
+msgstr ""
+
+#: helper/helper_functions - Copy.php:205
+#: helper/helper_functions.php:270
+#: helper/helper_functions2.php:151
+#: restaurant reservation/admin/add-custom-field-quick-edit-menu.php:106
+#: restaurant reservation/admin/add-custom-field.php:113
+#: restaurant reservation/admin/admin.php:196
+#@ online-reservation
+msgid "Phone"
+msgstr ""
+
+#: helper/helper_functions - Copy.php:209
+#: helper/helper_functions.php:274
+#: helper/helper_functions2.php:155
+#: restaurant reservation/admin/add-custom-field-quick-edit-menu.php:112
+#: restaurant reservation/admin/add-custom-field.php:119
+#@ online-reservation
+msgid "Message"
+msgstr ""
+
+#: helper/helper_functions - Copy.php:213
+#: helper/helper_functions.php:278
+#: helper/helper_functions2.php:167
+#@ online-reservation
+msgid "Type of Table"
+msgstr ""
+
+#: helper/helper_functions2.php:197
+#: restaurant reservation/admin/add-custom-field-quick-edit-menu.php:81
+#: restaurant reservation/admin/add-custom-field.php:91
+#: restaurant reservation/admin/admin.php:562
+#@ online-reservation
+msgid "Table"
+msgstr ""
+
+#: restaurant reservation/admin/add-custom-field-quick-edit-menu.php:47
+#: restaurant reservation/admin/add-custom-field.php:57
+#: restaurant reservation/admin/admin.php:191
+#: restaurant reservation/admin/admin.php:202
+#: restaurant reservation/admin/admin.php:228
+#@ online-reservation
+msgid "Booking Date"
+msgstr ""
+
+#: restaurant reservation/admin/add-custom-field-quick-edit-menu.php:50
+#: restaurant reservation/admin/add-custom-field.php:60
+#@ online-reservation
+msgid "Booking Time"
+msgstr ""
+
+#: restaurant reservation/admin/add-custom-field-quick-edit-menu.php:56
+#: restaurant reservation/admin/add-custom-field.php:66
+#@ online-reservation
+msgid "Type of Tables"
+msgstr ""
+
+#: restaurant reservation/admin/add-custom-field-quick-edit-menu.php:84
+#: restaurant reservation/admin/add-custom-field.php:94
+#@ online-reservation
+msgid "Person"
+msgstr ""
+
+#: restaurant reservation/admin/add-custom-field-quick-edit-menu.php:87
+#: restaurant reservation/admin/add-custom-field.php:97
+#: restaurant reservation/admin/admin.php:209
+#@ online-reservation
+#@ default
+msgid "Confirmation Key"
+msgstr ""
+
+#: restaurant reservation/admin/add-custom-field-quick-edit-menu.php:91
+#: restaurant reservation/admin/add-custom-field.php:101
+#: restaurant reservation/admin/admin.php:211
+#@ online-reservation
+#@ default
+msgid "Status"
+msgstr ""
+
+#: restaurant reservation/admin/add-custom-field-quick-edit-menu.php:109
+#: restaurant reservation/admin/add-custom-field.php:116
+#: restaurant reservation/admin/admin.php:197
+#: restaurant reservation/admin/admin.php:563
+#: restaurant reservation/admin/email.php:197
+#@ online-reservation
+msgid "Email"
+msgstr ""
+
+#: restaurant reservation/admin/add-date-filter.php:51
+#@ online-reservation
+msgid "Today"
+msgstr ""
+
+#: restaurant reservation/admin/add-date-filter.php:53
+#@ online-reservation
+msgid "Tomorrow"
+msgstr ""
+
+#: restaurant reservation/admin/add-date-filter.php:54
+#@ online-reservation
+msgid "Choose Date"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:38
+#: restaurant reservation/admin/admin.php:39
+#: restaurant reservation/admin/admin.php:40
+#@ online-reservation
+msgctxt "olr_restaurant"
+msgid "Restaurant Reservation"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:42
+#@ online-reservation
+msgctxt "olr_restaurant"
+msgid "Add New item"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:43
+#@ online-reservation
+msgctxt "olr_restaurant"
+msgid "All Bookings"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:44
+#@ online-reservation
+msgctxt "olr_restaurant"
+msgid "Edit Online Reservation"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:45
+#@ online-reservation
+msgctxt "olr_restaurant"
+msgid "New Online Reservation"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:46
+#@ online-reservation
+msgctxt "olr_restaurant"
+msgid "View Online Reservation"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:47
+#@ online-reservation
+msgctxt "olr_restaurant"
+msgid "Online Reservation Archive"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:48
+#@ online-reservation
+msgctxt "olr_restaurant"
+msgid "Search Online Reservation"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:49
+#@ online-reservation
+msgctxt "olr_restaurant"
+msgid "No Online Reservation found."
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:50
+#@ online-reservation
+msgctxt "olr_restaurant"
+msgid "No Online Reservation found in trash."
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:78
+#, php-format
+#@ online-reservation
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: restaurant reservation/admin/admin.php:88
+#, php-format
+#@ online-reservation
+msgid "Closed <span class=\"count\">(%s)</span>"
+msgid_plural "Closed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: restaurant reservation/admin/admin.php:98
+#, php-format
+#@ online-reservation
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: restaurant reservation/admin/admin.php:108
+#, php-format
+#@ online-reservation
+msgid "Enquiry <span class=\"count\">(%s)</span>"
+msgid_plural "Enquiry <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: restaurant reservation/admin/admin.php:200
+#@ online-reservation
+msgid "Tables"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:284
+#: restaurant reservation/admin/admin.php:285
+#@ default
+msgid "Confirmed"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:286
+#: restaurant reservation/admin/admin.php:287
+#@ default
+msgid "Closed"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:393
+#, php-format
+#@ default
+msgid "Post selected "
+msgid_plural "%s posts selected "
+msgstr[0] ""
+msgstr[1] ""
+
+#: restaurant reservation/admin/admin.php:524
+#: restaurant reservation/admin/admin.php:525
+#@ online-reservation
+msgid "Settings"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:550
+#@ online-reservation
+msgid "Restaurant Reservation Setting"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:560
+#@ online-reservation
+msgid "General"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:561
+#@ online-reservation
+msgid "Schedule"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:564
+#@ online-reservation
+msgid "Captcha"
+msgstr ""
+
+#: restaurant reservation/admin/admin.php:565
+#@ online-reservation
+msgid "Form"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:14
+#@ online-reservation
+msgid "Signup"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:14
+#@ online-reservation
+msgid "to get Public and Private Key"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:15
+#@ online-reservation
+msgid "Steps"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:16
+#@ online-reservation
+msgid "1. Sign Up"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:17
+#@ online-reservation
+msgid "2. On My Account Tab , enter your site Domain , click create"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:18
+#@ online-reservation
+msgid "3. Click on your domain , you will see public and private key"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:23
+#@ online-reservation
+msgid "Enable Google Recaptcha"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:27
+#@ online-reservation
+msgid "Public Key"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:30
+#@ online-reservation
+msgid "Private Key"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:34
+#: restaurant reservation/admin/schedule.php:87
+#@ online-reservation
+msgid "Early Bookings"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:36
+#@ online-reservation
+msgid "Red"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:37
+#@ online-reservation
+msgid "White"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:38
+#@ online-reservation
+msgid "Black Glass"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:39
+#@ online-reservation
+msgid "Clean"
+msgstr ""
+
+#: restaurant reservation/admin/captcha.php:43
+#@ online-reservation
+msgid "Captcha Error Message"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:46
+#@ online-reservation
+msgid "You can easier to add and style some content on your email template with below Editor"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:48
+#@ online-reservation
+msgid "Field Content"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:51
+#: restaurant reservation/admin/email.php:127
+#@ online-reservation
+msgid "Restaurant Message"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:52
+#: restaurant reservation/admin/email.php:131
+#@ online-reservation
+msgid "Restaurant Information"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:53
+#: restaurant reservation/admin/email.php:135
+#@ online-reservation
+msgid "Restaurant Policies"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:54
+#: restaurant reservation/admin/email.php:161
+#@ online-reservation
+msgid "Footer Content"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:57
+#@ online-reservation
+msgid "Get Content"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:58
+#@ online-reservation
+msgid "Save Content"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:73
+#@ online-reservation
+msgid "GENERAL"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:74
+#@ online-reservation
+msgid "Restaurant Name"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:77
+#@ online-reservation
+msgid "Restaurant Address"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:80
+#@ online-reservation
+msgid "Restaurant City"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:83
+#@ online-reservation
+msgid "Restaurant State"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:86
+#@ online-reservation
+msgid "Restaurant Zip Code"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:89
+#@ online-reservation
+msgid "Restaurant Phone"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:92
+#@ online-reservation
+msgid "Restaurant Fax"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:95
+#@ online-reservation
+msgid "Restaurant Email"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:98
+#@ online-reservation
+msgid "Restaurant Website"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:102
+#@ online-reservation
+msgid "Restaurant Logo"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:106
+#: restaurant reservation/admin/email.php:115
+#@ online-reservation
+msgid "Select Logo to Upload"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:107
+#: restaurant reservation/admin/email.php:116
+#@ online-reservation
+msgid "Remove Logo"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:111
+#@ online-reservation
+msgid "Restaurant Image"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:121
+#@ online-reservation
+msgid "Special Offer Link"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:124
+#@ online-reservation
+msgid "Reservation Link"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:139
+#@ online-reservation
+msgid "Facebook"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:143
+#@ online-reservation
+msgid "Twitter"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:146
+#@ online-reservation
+msgid "Google"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:149
+#@ online-reservation
+msgid "LinkedIn"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:153
+#@ online-reservation
+msgid "Pinterest"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:157
+#@ online-reservation
+msgid "Youtube"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:170
+#@ online-reservation
+msgid "Confirmation"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:171
+#@ online-reservation
+msgid "Enable Confirmation Email"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:175
+#@ online-reservation
+msgid "Display Confirmation Key"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:175
+#@ online-reservation
+msgid "( on List of bookings )"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:180
+#@ online-reservation
+msgid "Confirmation Success Message"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:183
+#@ online-reservation
+msgid "Confirmation Failed Message"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:192
+#@ online-reservation
+msgid "Restaurant Owner"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:193
+#@ online-reservation
+msgid "Send Email to Owner"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:201
+#: restaurant reservation/admin/email.php:216
+#@ online-reservation
+msgid "Subject"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:211
+#@ online-reservation
+msgid "Restaurant Customer"
+msgstr ""
+
+#: restaurant reservation/admin/email.php:212
+#@ online-reservation
+msgid "Send Email to Customer"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:17
+#@ online-reservation
+msgid "Reservation Page"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:51
+#@ online-reservation
+msgid "Thank You Page"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:67
+#@ online-reservation
+msgid "Success Message"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:71
+#@ online-reservation
+msgid "Failed Message"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:76
+#@ online-reservation
+msgid "Help to promote this plugin"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:76
+#@ online-reservation
+msgid "( By Display Link Below Reservation Form )"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:82
+#@ online-reservation
+msgid "Reservation Length ( in minutes )"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:92
+#@ online-reservation
+msgid "Provide Other time ( if table on choosen time is fully booked ) "
+msgstr ""
+
+#: restaurant reservation/admin/general.php:98
+#@ online-reservation
+msgid "How many other different times to be displayed"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:100
+#@ online-reservation
+msgid "5"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:101
+#@ online-reservation
+msgid "6"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:102
+#@ online-reservation
+msgid "7"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:103
+#@ online-reservation
+msgid "8"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:104
+#@ online-reservation
+msgid "9"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:105
+#@ online-reservation
+msgid "10"
+msgstr ""
+
+#: restaurant reservation/admin/general.php:111
+#@ online-reservation
+msgid "Timezone"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:27
+#@ online-reservation
+msgid "Working Days"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:41
+#@ online-reservation
+msgid "Monday"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:44
+#@ online-reservation
+msgid "Tuesday"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:47
+#@ online-reservation
+msgid "Wednesday"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:50
+#@ online-reservation
+msgid "Thursday"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:53
+#@ online-reservation
+msgid "Friday"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:56
+#@ online-reservation
+msgid "Saturday"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:59
+#@ online-reservation
+msgid "Sunday"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:61
+#@ online-reservation
+msgid "Day Off"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:64
+#@ online-reservation
+msgid "Open Time"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:67
+#@ online-reservation
+msgid "Close Time"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:80
+#@ online-reservation
+msgid "Time Interval"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:82
+#@ online-reservation
+msgid "Note : "
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:82
+#@ online-reservation
+msgid "the range between hours , if you set 30 , then it would be (  01.30 , 02.00 , 02.30  )"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:89
+#@ online-reservation
+msgid "Anytime"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:90
+#@ online-reservation
+msgid "1 day in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:91
+#@ online-reservation
+msgid "1 week in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:92
+#@ online-reservation
+msgid "2 weeks in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:93
+#@ online-reservation
+msgid "3 weeks in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:94
+#@ online-reservation
+msgid "1 month in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:95
+#@ online-reservation
+msgid "2 months in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:96
+#@ online-reservation
+msgid "3 months in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:98
+#: restaurant reservation/admin/schedule.php:117
+#@ online-reservation
+msgid "Note :"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:98
+#@ online-reservation
+msgid "set early booking your customer can make"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:103
+#@ online-reservation
+msgid "Late Bookings"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:105
+#@ online-reservation
+msgid "last minute in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:106
+#@ online-reservation
+msgid "15 minutes in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:107
+#@ online-reservation
+msgid "30 minutes in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:108
+#@ online-reservation
+msgid "45 minutes in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:109
+#@ online-reservation
+msgid "1 hour in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:110
+#@ online-reservation
+msgid "3 hours in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:111
+#@ online-reservation
+msgid "6 hours in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:112
+#@ online-reservation
+msgid "9 hours in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:113
+#@ online-reservation
+msgid "12 hours in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:114
+#@ online-reservation
+msgid "18 hours in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:115
+#@ online-reservation
+msgid "23 hours in advance"
+msgstr ""
+
+#: restaurant reservation/admin/schedule.php:117
+#@ online-reservation
+msgid "set late booking your customer can make"
+msgstr ""
+
+#: restaurant reservation/admin/security.php:17
+#@ online-reservation
+msgid "Advance Security"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:15
+#@ online-reservation
+msgid "Table Size"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:16
+#@ online-reservation
+msgid "One"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:20
+#@ online-reservation
+msgid "Many"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:25
+#@ online-reservation
+msgid "One Size"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:28
+#@ online-reservation
+msgid "Total Table"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:32
+#@ online-reservation
+msgid "Max Person Per Table"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:37
+#@ online-reservation
+msgid "Many Size"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:40
+#@ online-reservation
+msgid "Type of table"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:43
+#@ online-reservation
+msgid "Format : "
+msgstr ""
+
+#: restaurant reservation/admin/table.php:43
+#@ online-reservation
+msgid "tablename( maximum person per table )"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:44
+#@ online-reservation
+msgid "Examples"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:45
+#@ online-reservation
+msgid "smaller(4)"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:46
+#@ online-reservation
+msgid "medium(8)"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:47
+#@ online-reservation
+msgid "larger(12)"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:71
+#: restaurant reservation/ajax-request/ajax-admin.php:33
+#@ online-reservation
+msgid "Total"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:71
+#: restaurant reservation/ajax-request/ajax-admin.php:33
+#@ online-reservation
+msgid "table"
+msgstr ""
+
+#: restaurant reservation/admin/table.php:72
+#: restaurant reservation/ajax-request/ajax-admin.php:34
+#@ online-reservation
+msgid "_table"
+msgstr ""
+
+#: restaurant reservation/display-widget.php:29
+#@ online-reservation
+msgid "OLRS Restaurant Reservation"
+msgstr ""
+
+#: restaurant reservation/display-widget.php:30
+#@ online-reservation
+msgid "Display Online Restaurant Reservation"
+msgstr ""
+
+#: restaurant reservation/display-widget.php:99
+#@ online-reservation
+msgid "Restaurant Reservation"
+msgstr ""
+
+#: restaurant reservation/display-widget.php:105
+#@ online-reservation
+msgid "Title:"
+msgstr ""
+

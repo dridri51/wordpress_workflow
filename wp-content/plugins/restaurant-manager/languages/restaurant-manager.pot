@@ -1,0 +1,1212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Restaurant Manager Plugin\n"
+"POT-Creation-Date: 2015-03-16 11:49-0000\n"
+"PO-Revision-Date: 2015-03-16 11:49-0000\n"
+"Last-Translator: \n"
+"Language-Team: SyntaxThemes\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext;_n;__ngettext_noop;_n_noop;_c;_nc;_x;"
+"_ex;_nx;_nx_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets/js\n"
+"X-Poedit-SearchPathExcluded-1: framework/js\n"
+
+#: class-plugin.php:93
+msgid "Manager"
+msgstr ""
+
+#: framework/base/class-plugin-core.php:119
+#: framework/base/class-plugin-core.php:130
+#: framework/base/class-plugin-core.php:145
+msgid "Error: Plugin: "
+msgstr ""
+
+#: framework/base/class-plugin-core.php:120
+msgid "Minimal version of PHP required: "
+msgstr ""
+
+#: framework/base/class-plugin-core.php:121
+msgid "Your server's PHP version: "
+msgstr ""
+
+#: framework/base/class-plugin-core.php:131
+msgid "Minimal version of Wordpress required: "
+msgstr ""
+
+#: framework/base/class-plugin-core.php:132
+msgid "Your server's Wordpress version: "
+msgstr ""
+
+#: framework/base/class-plugin-core.php:141
+msgid "The following plugin: "
+msgstr ""
+
+#: framework/php/shortcodes/class-shortcode-extensions.php:50
+msgid "Shortcodes Manager"
+msgstr ""
+
+#: framework/php/shortcodes/class-shortcode-loader.php:101
+msgid "Your settings have not been saved.  An error has occured."
+msgstr ""
+
+#: framework/php/shortcodes/tinymce/class-synth-tinymce-manager.php:70
+msgid "Restaurant Manager Shortcodes"
+msgstr ""
+
+#: includes/class-event-log.php:98
+msgid "The reservation status has been changed"
+msgstr ""
+
+#: includes/class-events-list-table.php:45
+msgid "Author"
+msgstr ""
+
+#: includes/class-events-list-table.php:46
+msgid "Content"
+msgstr ""
+
+#: includes/class-events-list-table.php:47
+msgid "Event"
+msgstr ""
+
+#: includes/class-events-list-table.php:48
+msgid "Created Date"
+msgstr ""
+
+#: includes/class-events-list-table.php:192
+msgid "Email Notification: "
+msgstr ""
+
+#: includes/class-events-list-table.php:192
+msgid "Sent"
+msgstr ""
+
+#: includes/class-events-list-table.php:192
+msgid "Not Sent"
+msgstr ""
+
+#: includes/functions-admin-menu.php:16 includes/functions-admin-menu.php:17
+msgid "Restaurant"
+msgstr ""
+
+#: includes/functions-admin-menu.php:31
+msgid "Dashboard"
+msgstr ""
+
+#: includes/functions-admin-menu.php:32
+msgid "Welcome"
+msgstr ""
+
+#: includes/functions-admin-menu.php:40
+#: includes/shortcodes/components/restaurant-menu.php:74
+msgid "All Meals"
+msgstr ""
+
+#: includes/functions-admin-menu.php:41
+#: includes/post-types/class-meal-post-type.php:39
+#: includes/post-types/class-meal-post-type.php:41
+msgid "Meals"
+msgstr ""
+
+#: includes/functions-admin-menu.php:49
+#: includes/post-types/class-meal-post-type.php:43
+msgid "Add New Meal"
+msgstr ""
+
+#: includes/functions-admin-menu.php:50
+msgid "Add Meal"
+msgstr ""
+
+#: includes/functions-admin-menu.php:57 includes/functions-admin-menu.php:58
+#: includes/post-types/class-meal-post-type.php:79
+#: includes/post-types/class-meal-post-type.php:89
+msgid "Menus"
+msgstr ""
+
+#: includes/functions-admin-menu.php:65 includes/functions-admin-menu.php:66
+#: includes/post-types/class-meal-post-type.php:112
+#: includes/post-types/class-meal-post-type.php:122
+msgid "Courses"
+msgstr ""
+
+#: includes/functions-admin-menu.php:73 includes/functions-admin-menu.php:74
+#: includes/post-types/class-meal-post-type.php:155
+msgid "Diets"
+msgstr ""
+
+#: includes/functions-admin-menu.php:81 includes/functions-admin-menu.php:82
+#: includes/post-types/class-meal-post-type.php:178
+#: includes/post-types/class-meal-post-type.php:188
+msgid "Cuisines"
+msgstr ""
+
+#: includes/functions-admin-menu.php:89
+msgid "All Reservations"
+msgstr ""
+
+#: includes/functions-admin-menu.php:90
+#: includes/post-types/class-reservation-post-type.php:38
+#: includes/post-types/class-reservation-post-type.php:40
+msgid "Reservations"
+msgstr ""
+
+#: includes/functions-admin-menu.php:97 includes/functions-admin-menu.php:98
+msgid "Settings"
+msgstr ""
+
+#: includes/functions-admin-menu.php:105 includes/functions-admin-menu.php:106
+#: includes/functions-admin-menu.php:659
+msgid "Add-ons"
+msgstr ""
+
+#: includes/functions-admin-menu.php:170
+#, php-format
+msgid "Welcome to<br />Restaurant Manager %s"
+msgstr ""
+
+#: includes/functions-admin-menu.php:173
+msgid ""
+"Thank you for using Restaurant Manager WordPress plugin. You can now manage "
+"your restaurant meals, menus and table reservations."
+msgstr ""
+
+#: includes/functions-admin-menu.php:245
+msgid "General"
+msgstr ""
+
+#: includes/functions-admin-menu.php:246
+msgid "Reservation Schedule"
+msgstr ""
+
+#: includes/functions-admin-menu.php:247
+msgid "Notifications"
+msgstr ""
+
+#: includes/functions-admin-menu.php:295
+msgid ""
+"Thank you, We have successfully received your booking request.  Your booking "
+"is awaiting to be confirmed with us.  We will send you updates to the email "
+"address provided."
+msgstr ""
+
+#: includes/functions-admin-menu.php:298
+msgid "General Settings"
+msgstr ""
+
+#: includes/functions-admin-menu.php:303
+msgid "Maximum Group Size"
+msgstr ""
+
+#: includes/functions-admin-menu.php:305
+msgid "No limit"
+msgstr ""
+
+#: includes/functions-admin-menu.php:306
+msgid "Set your maximum allowed size for your group bookings."
+msgstr ""
+
+#: includes/functions-admin-menu.php:310
+msgid "Reservation Success Message"
+msgstr ""
+
+#: includes/functions-admin-menu.php:312
+msgid "Enter the message which is displayed when a reservation is made."
+msgstr ""
+
+#: includes/functions-admin-menu.php:316
+msgid "Restaurant Telephone Number"
+msgstr ""
+
+#: includes/functions-admin-menu.php:319
+msgid "Set your restaurant telephone contact number."
+msgstr ""
+
+#: includes/functions-admin-menu.php:324
+msgid "Country Code"
+msgstr ""
+
+#: includes/functions-admin-menu.php:335
+msgid "Set your country code for your restaurant location."
+msgstr ""
+
+#: includes/functions-admin-menu.php:340
+msgid "Currency Symbol"
+msgstr ""
+
+#: includes/functions-admin-menu.php:344
+msgid "Set the currency symbol for your menu prices."
+msgstr ""
+
+#: includes/functions-admin-menu.php:349
+msgid "Date Format"
+msgstr ""
+
+#: includes/functions-admin-menu.php:358
+msgid ""
+"Set the date format for dates displayed in your emails, bookings and "
+"reservation table."
+msgstr ""
+
+#: includes/functions-admin-menu.php:363
+msgid "Time Format"
+msgstr ""
+
+#: includes/functions-admin-menu.php:377
+msgid ""
+"Set the time format for dates displayed in your emails, bookings and "
+"reservation table."
+msgstr ""
+
+#: includes/functions-admin-menu.php:385 includes/functions-admin-menu.php:443
+#: includes/functions-admin-menu.php:647
+msgid "Save Changes"
+msgstr ""
+
+#: includes/functions-admin-menu.php:403
+msgid "Reservation Schedule Settings"
+msgstr ""
+
+#: includes/functions-admin-menu.php:408
+msgid "Schedule"
+msgstr ""
+
+#: includes/functions-admin-menu.php:415
+msgid "Add New Schedule"
+msgstr ""
+
+#: includes/functions-admin-menu.php:416
+msgid ""
+"Set your days and times for your schedule.  You can have multiple schedules."
+msgstr ""
+
+#: includes/functions-admin-menu.php:425
+msgid "Schedule your days and times"
+msgstr ""
+
+#: includes/functions-admin-menu.php:472
+msgid "Notification Settings"
+msgstr ""
+
+#: includes/functions-admin-menu.php:477
+msgid "Reply To Name"
+msgstr ""
+
+#: includes/functions-admin-menu.php:480
+msgid "Set the reply to email name."
+msgstr ""
+
+#: includes/functions-admin-menu.php:484
+msgid "Reply To Email"
+msgstr ""
+
+#: includes/functions-admin-menu.php:487
+msgid "Set the reply to email address."
+msgstr ""
+
+#: includes/functions-admin-menu.php:491
+msgid "Email Templates"
+msgstr ""
+
+#: includes/functions-admin-menu.php:493
+msgid ""
+"The following emails are automatically sent to your customers when the "
+"status of their reservation changes.  You can change these templates to suit "
+"your own needs."
+msgstr ""
+
+#: includes/functions-admin-menu.php:495
+msgid "Template Tags"
+msgstr ""
+
+#: includes/functions-admin-menu.php:497
+msgid ""
+"Use the follwing template tags in your emails to automatically add your "
+"customer and their booking data to the emails. Tags labeled with an "
+"asterisk(*) can be used in the email subject."
+msgstr ""
+
+#: includes/functions-admin-menu.php:502
+msgid "* This is your customers first name."
+msgstr ""
+
+#: includes/functions-admin-menu.php:506
+msgid "* This is your customers last name."
+msgstr ""
+
+#: includes/functions-admin-menu.php:510
+msgid "The telephone number of the customer."
+msgstr ""
+
+#: includes/functions-admin-menu.php:514
+msgid "The email address of the customer."
+msgstr ""
+
+#: includes/functions-admin-menu.php:518
+msgid "* The size of the party for the reservation."
+msgstr ""
+
+#: includes/functions-admin-menu.php:522
+msgid "* The reservation date of the customer booking ."
+msgstr ""
+
+#: includes/functions-admin-menu.php:526
+msgid "* The reservation time of the customer booking ."
+msgstr ""
+
+#: includes/functions-admin-menu.php:530
+msgid "The message left by the customer when creating the reservation."
+msgstr ""
+
+#: includes/functions-admin-menu.php:534
+msgid "The name of your restaurant set in the General Settings tab."
+msgstr ""
+
+#: includes/functions-admin-menu.php:538
+msgid "A link to your website."
+msgstr ""
+
+#: includes/functions-admin-menu.php:542
+msgid "This is the current date and time. Used for audit purposes."
+msgstr ""
+
+#: includes/functions-admin-menu.php:547
+msgid "Administrator Email Subject"
+msgstr ""
+
+#: includes/functions-admin-menu.php:549 includes/functions-admin-menu.php:573
+msgid "You have a booking request"
+msgstr ""
+
+#: includes/functions-admin-menu.php:550
+msgid "Set the administrator email subject."
+msgstr ""
+
+#: includes/functions-admin-menu.php:554
+msgid "Administrator Email"
+msgstr ""
+
+#: includes/functions-admin-menu.php:567
+msgid "Create the email which your administrator will receive."
+msgstr ""
+
+#: includes/functions-admin-menu.php:571
+msgid "New Reservation Email Subject"
+msgstr "New Reservation Email Subject"
+
+#: includes/functions-admin-menu.php:574 includes/functions-admin-menu.php:598
+msgid "Set the new reservation email subject."
+msgstr ""
+
+#: includes/functions-admin-menu.php:578
+msgid "New Reservation Email"
+msgstr ""
+
+#: includes/functions-admin-menu.php:591 includes/functions-admin-menu.php:615
+#: includes/functions-admin-menu.php:639
+msgid "Create the email which your customer will receive."
+msgstr ""
+
+#: includes/functions-admin-menu.php:595
+msgid "Reservation Confirmed Email Subject"
+msgstr ""
+
+#: includes/functions-admin-menu.php:597
+msgid "Your reservation request has been confirmed"
+msgstr ""
+
+#: includes/functions-admin-menu.php:602
+msgid "Reservation Confirmed Email"
+msgstr ""
+
+#: includes/functions-admin-menu.php:619
+msgid "Reservation Rejected Email Subject"
+msgstr ""
+
+#: includes/functions-admin-menu.php:621
+msgid "Unfortunately we cannot make your reservation"
+msgstr ""
+
+#: includes/functions-admin-menu.php:622
+msgid "Set the email subject for reservation rejections."
+msgstr ""
+
+#: includes/functions-admin-menu.php:626
+msgid "Reservation Rejected Email"
+msgstr ""
+
+#: includes/functions-admin-menu.php:664
+msgid "Taurus Restaurant Theme"
+msgstr ""
+
+#: includes/functions-admin-menu.php:668
+msgid ""
+"Taurus Theme has been designed to work beautifully with our Restaurant "
+"Manager plugin.  It has styled the reservation form nicely with the\n"
+"                                theme layout.  Check out the"
+msgstr ""
+
+#: includes/functions-admin-menu.php:673 includes/functions-admin-menu.php:698
+#: includes/functions-admin-menu.php:715 includes/functions-admin-menu.php:732
+msgid "Read More"
+msgstr ""
+
+#: includes/functions-admin-menu.php:674
+msgid "Buy Now $35"
+msgstr ""
+
+#: includes/functions-admin-menu.php:688
+msgid "Restaurant MailChimp Subscribe User"
+msgstr ""
+
+#: includes/functions-admin-menu.php:692
+msgid ""
+"This MailChimp plugin allows you to quickly and easily add a signup checkbox "
+"to your reservation form. \n"
+"                                This allows your customers to signup to your "
+"services by allowing their email to be added to your MailChimp list. \n"
+"                                Its is very easy to use, just install and on "
+"the settings tab enter your MailChimp account API Key and choose your email "
+"list."
+msgstr ""
+
+#: includes/functions-admin-menu.php:699 includes/functions-admin-menu.php:716
+#: includes/functions-admin-menu.php:733
+msgid "Buy Now $19.99"
+msgstr ""
+
+#: includes/functions-admin-menu.php:705
+msgid "Customer Email Support"
+msgstr ""
+
+#: includes/functions-admin-menu.php:709
+msgid ""
+"Now you can email your customers directly from their saved reservation "
+"booking record.  All emails sent are\n"
+"                                recorded on the booking so you can keep "
+"track of communication sent from your restaurant. Improve your customer\n"
+"                                relations without the need for external "
+"email clients."
+msgstr ""
+
+#: includes/functions-admin-menu.php:722
+msgid "Customer SMS Support"
+msgstr ""
+
+#: includes/functions-admin-menu.php:726
+msgid ""
+"Now you can send SMS directly to your customer from your reservation screen. "
+"All SMS messages are recorded in your reservation screen\n"
+"                                so that you can see what has been sent to "
+"your customers. You will need a Nexmo SMS account this is free to set up and "
+"you will\n"
+"                                receive some free credit to try.  Check out"
+msgstr ""
+
+#: includes/functions-form-processing.php:147
+msgid "Your general settings have been successfully updated."
+msgstr ""
+
+#: includes/functions-form-processing.php:179
+msgid "Your reservation schedule settings have been successfully updated."
+msgstr ""
+
+#: includes/functions-form-processing.php:231
+msgid "Your notifications settings have been successfully updated."
+msgstr ""
+
+#: includes/functions-helpers.php:205
+msgid "Mon"
+msgstr ""
+
+#: includes/functions-helpers.php:206
+msgid "Tue"
+msgstr ""
+
+#: includes/functions-helpers.php:207
+msgid "Wed"
+msgstr ""
+
+#: includes/functions-helpers.php:208
+msgid "Thu"
+msgstr ""
+
+#: includes/functions-helpers.php:209
+msgid "Fri"
+msgstr ""
+
+#: includes/functions-helpers.php:210
+msgid "Sat"
+msgstr ""
+
+#: includes/functions-helpers.php:211
+msgid "Sun"
+msgstr ""
+
+#: includes/functions-helpers.php:255
+msgid "Days of the week"
+msgstr ""
+
+#: includes/functions-helpers.php:258
+msgid "Monday"
+msgstr ""
+
+#: includes/functions-helpers.php:261
+msgid "Tuesday"
+msgstr ""
+
+#: includes/functions-helpers.php:264
+msgid "Wednesday"
+msgstr ""
+
+#: includes/functions-helpers.php:267
+msgid "Thursday"
+msgstr ""
+
+#: includes/functions-helpers.php:270
+msgid "Friday"
+msgstr ""
+
+#: includes/functions-helpers.php:273
+msgid "Saturday"
+msgstr ""
+
+#: includes/functions-helpers.php:276
+msgid "Sunday"
+msgstr ""
+
+#: includes/functions-helpers.php:281
+msgid "Open Times"
+msgstr ""
+
+#: includes/functions-helpers.php:395
+msgid "All Categories"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:55
+msgid "Meal Properties"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:121
+msgid "Full Price"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:125
+msgid "Small Plate Price"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:129
+msgid "Display Pricing"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:133
+msgid "Calories Count"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:134
+#: includes/shortcodes/components/restaurant-menu.php:184
+#: templates/restaurant-manager/loop-meal.php:32
+#: templates/restaurant-manager/single-meal.php:48
+msgid "(kcal)"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:139
+msgid "New Addition"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:143
+#: includes/shortcodes/components/restaurant-menu.php:189
+#: templates/restaurant-manager/loop-meal.php:35
+#: templates/restaurant-manager/single-meal.php:51
+msgid "Healthy Option"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:147
+#: includes/shortcodes/components/restaurant-menu.php:194
+#: templates/restaurant-manager/loop-meal.php:38
+#: templates/restaurant-manager/single-meal.php:54
+msgid "Gluten Free"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:151
+msgid "Spice Rating"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:153
+msgid "None Spicy"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:154
+msgid "1 Star"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:155
+msgid "2 Star"
+msgstr ""
+
+#: includes/post-types/class-meal-post-meta-boxes.php:156
+msgid "3 Star"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:40
+#: includes/shortcodes/components/restaurant-menu.php:72
+msgid "Meal"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:42
+#: includes/post-types/class-reservation-post-type.php:41
+msgid "Add New"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:44
+#: includes/post-types/class-reservation-post-type.php:43
+#: templates/restaurant-manager/loop-meal.php:50
+#: templates/restaurant-manager/single-meal.php:66
+msgid "Edit"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:45
+msgid "Edit Meal"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:46
+msgid "New Meal"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:47
+msgid "View Meal"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:48
+msgid "View Meals"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:49
+msgid "Search Meals"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:50
+#: includes/post-types/class-reservation-post-type.php:49
+msgid "No booking found"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:51
+#: includes/post-types/class-reservation-post-type.php:50
+msgid "No booking found in trash"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:52
+msgid "Parent Meal"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:55
+msgid "This is where meal items are stored"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:80
+msgid "Menu"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:81
+msgid "Search Menus"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:82
+#: includes/shortcodes/components/restaurant-menu.php:45
+msgid "All Menus"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:85
+msgid "Edit Menu"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:86
+msgid "Update Menu"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:87
+msgid "Add New Menu"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:88
+msgid "New Menu Name"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:113
+msgid "Course"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:114
+msgid "Search Courses"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:115
+#: includes/shortcodes/components/restaurant-menu.php:58
+msgid "All Courses"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:118
+msgid "Edit Course"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:119
+msgid "Update Course"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:120
+msgid "Add New Course"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:121
+msgid "New Course Name"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:145
+#: includes/post-types/class-meal-post-type.php:146
+msgid "Dietary"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:147
+msgid "Search Diets"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:148
+msgid "All Diets"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:151
+msgid "Edit Dietary"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:152
+msgid "Update Dietary"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:153
+msgid "Add New Dietary"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:154
+msgid "New Dietary Name"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:179
+msgid "Cuisine"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:180
+msgid "Search Cuisines"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:181
+msgid "All Cuisines"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:184
+msgid "Edit Cuisine"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:185
+msgid "Update Cuisine"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:186
+msgid "Add New Cuisine"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:187
+msgid "New Cuisine Name"
+msgstr ""
+
+#: includes/post-types/class-meal-post-type.php:259
+msgid "Price"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:63
+msgid "Customer Details"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:64
+msgid "Reservation Status"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:65
+msgid "Event Log"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:124
+msgid "First Name"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:128
+msgid "Last Name"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:132
+msgid "Phone Number"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:136
+msgid "Email Address"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:140
+msgid "Number of Guests"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:144
+msgid "Reservation Date"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:148
+msgid "Reservation Time"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:158
+msgid "Customer Notes"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:190
+#: includes/post-types/class-reservation-post-type.php:180
+msgid "Status"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:218
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:220
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:237
+msgid "Save Reservation"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:260
+msgid "Draft Reservation"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:261
+msgid "Pending Reservation"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:262
+msgid "Confirm Reservation"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-meta-boxes.php:263
+msgid "Reject Reservation"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:39
+msgid "Reservation"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:42
+msgid "Add New Reservation"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:44
+#: includes/post-types/class-reservation-post-type.php:272
+msgid "Edit Reservation"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:45
+msgid "New Reservation"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:46
+msgid "View Reservation"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:47
+msgid "View Reservations"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:48
+msgid "Search Reservations"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:51
+msgid "Parent Reservation"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:54
+msgid "This is where reservation items are stored"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:77
+#: includes/post-types/class-reservation-post-type.php:256
+msgid "Pending"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:78
+#, php-format
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:86
+msgid "Confirm"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:87
+#, php-format
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:95
+msgid "Reject"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:96
+#, php-format
+msgid "Rejected <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:129
+msgid "Status Pending."
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:131
+msgid "Status Confirmed."
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:133
+msgid "Status Rejected."
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:135
+msgid "Status Completed."
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:137
+msgid "Status Unknown."
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:143
+#: includes/post-types/class-reservation-post-type.php:146
+#, php-format
+msgid "Reservation successfully updated. %s"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:144
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:145
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:147
+#, php-format
+msgid "Reservation restored to revision from %s"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:148
+#, php-format
+msgid "Reservation successfully created. %s"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:149
+msgid "Reservation saved."
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:150
+msgid "Reservation submitted."
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:151
+msgid "Reservation scheduled."
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:152
+msgid ""
+"Reservation draft updated. Email notification has not been sent for this "
+"status."
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:175
+msgid "Name"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:176
+#: includes/post-types/class-reservation-post-type.php:222
+msgid "Guests"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:177
+msgid "Phone"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:178
+msgid "Email"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:179
+msgid "Arrival"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:181
+msgid "Actions"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:220
+msgid "1 Guest"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:235
+msgid "...read more"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:254
+msgid "Draft"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:258
+msgid "Confirmed"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:260
+msgid "Rejected"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:262
+msgid "Completed"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:264
+msgid "Unknown"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:273
+msgid "Delete Reservation"
+msgstr ""
+
+#: includes/post-types/class-reservation-post-type.php:273
+msgid "Are you sure you would like to delete this reservation?"
+msgstr ""
+
+#: includes/shortcodes/components/reservation.php:28
+msgid "Restaurant Reservation"
+msgstr ""
+
+#: includes/shortcodes/components/reservation.php:81
+msgid "Please enter your first name."
+msgstr ""
+
+#: includes/shortcodes/components/reservation.php:90
+msgid "Please enter your last name."
+msgstr ""
+
+#: includes/shortcodes/components/reservation.php:99
+msgid "Please enter your contact telephone number."
+msgstr ""
+
+#: includes/shortcodes/components/reservation.php:99
+msgid "Your phone number must be digits only without spaces."
+msgstr ""
+
+#: includes/shortcodes/components/reservation.php:108
+msgid "Please enter your email address."
+msgstr ""
+
+#: includes/shortcodes/components/reservation.php:108
+msgid "Your email address which you have entered is in the incorrect format"
+msgstr ""
+
+#: includes/shortcodes/components/reservation.php:117
+msgid "Please tell us how many people will be in your party."
+msgstr ""
+
+#: includes/shortcodes/components/reservation.php:117
+#, php-format
+msgid "Your party exceeds the maximum group size of %d."
+msgstr ""
+
+#: includes/shortcodes/components/reservation.php:126
+msgid "Please choose your reservation date."
+msgstr ""
+
+#: includes/shortcodes/components/reservation.php:135
+msgid "Please choose your reservation time."
+msgstr ""
+
+#: includes/shortcodes/components/reservation.php:150
+msgid "Request Booking"
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:28
+msgid "Restaurant Menu"
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:46
+#: includes/shortcodes/components/restaurant-menu.php:59
+msgid "Text"
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:47
+msgid "Choose your restaurant menu."
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:60
+msgid "Choose your restaurant course."
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:71
+msgid "Menu Item"
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:73
+msgid "Choose your next meal to display in the menu."
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:81
+#: includes/shortcodes/components/restaurant-menu.php:82
+msgid "Show Image"
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:83
+msgid "Display the image set for the meal items."
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:86
+msgid "No"
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:87
+msgid "Yes"
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:94
+msgid "Post Image Size"
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:95
+msgid "Image Size"
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:96
+msgid "Choose the scale of the post image."
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:174
+msgid "New"
+msgstr ""
+
+#: includes/shortcodes/components/restaurant-menu.php:179
+#: templates/restaurant-manager/loop-meal.php:29
+#: templates/restaurant-manager/single-meal.php:45
+msgid "Small Plate"
+msgstr ""
+
+#: templates/restaurant-manager/loop-meal.php:47
+#: templates/restaurant-manager/single-meal.php:63
+msgid "Pages:"
+msgstr ""

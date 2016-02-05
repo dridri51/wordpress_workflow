@@ -1,0 +1,930 @@
+/* 
+    Created on : 16-Mar-2014, 15:47:43
+    Author     : Ryan
+*/
+@import "variables.less";
+@import "mixins.less";
+@import "../fonts/restaurant-manager-icons/style.less";
+
+.dashicons-syntaxstudio:before{
+    font: normal 22px/1 'restaurant-manager-icons';
+    speak: none !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    line-height: 1 !important;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    content: '\e601' !important;
+}
+
+/* =SyntaxThemes TinyMCE 3.x icons
+-------------------------------------------------------------- */
+.mce_restaurant_shortcodes{ 
+    .mceIcon{
+        height: 24px !important;
+
+        &.mce_restaurant_shortcodes{
+
+            &:before{
+                font: normal 22px/1 'restaurant-manager-icons' !important;
+                speak: none !important;
+                font-style: normal !important;
+                font-weight: normal !important;
+                font-variant: normal !important;
+                text-transform: none !important;
+                line-height: 1 !important;
+
+                /* Better Font Rendering =========== */
+                -webkit-font-smoothing: antialiased !important;
+                -moz-osx-font-smoothing: grayscale !important;
+                vertical-align: top;
+                color: #f73305;
+                content: '\e601' !important;     
+
+
+            }
+            &:hover{
+                &:before{
+                    color: #444444;
+                }
+            }
+        }
+    }
+    &.mceButtonSelected {
+        .mceIcon{
+            &.mce_restaurant_shortcodes{
+                &:before{
+                    color: #339caf;
+                }
+            }
+        }
+    }
+}
+#menu_content_content_restaurant_shortcodes_menu{
+    .mceMenuTitle{
+        background-color: #d7d7d7;
+
+        .mceText{
+            color: #000000;
+            font-weight: bold;
+        }
+    }
+}
+
+/* =SyntaxThemes TinyMCE 4.x icons
+-------------------------------------------------------------- */
+.mce-i-restaurant_shortcodes{
+
+    &:before{
+        font: normal 22px/1 'restaurant-manager-icons' !important;
+        speak: none !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        line-height: 1 !important;
+
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+        vertical-align: top;
+        color: #f73305;
+        content: '\e601' !important;     
+    }
+    &:hover{
+        color: #444444;
+    }
+}
+&.mce-active {
+    .mce-i-restaurant_shortcodes{
+        &:before{
+            color: #339caf;
+        }
+    }
+}
+
+/* =Titan Controls Template Styling
+-------------------------------------------------------------- */
+.control{
+    h3{
+        margin-top: 0;
+    }  
+    h4{
+        margin: 10px 0;
+    }
+    .control-field{
+        border: 1px solid #e4e4e4;
+        padding: 0 15px;
+        margin: 0 0 10px 0;
+    }
+    label{
+        width: 18%;
+        display: inline-block;
+
+        .wide{
+            width: 80%;
+        }
+    }
+    input[type='text']{
+        width: 50%;
+    }
+    select{
+        width: 40%;
+    }
+    textarea{
+        width: 100%;
+    }
+    .upload-image-view{
+        display: block;
+        max-width: 500px;
+        max-height: 200px;
+        margin: 15px 0;
+    }
+}
+
+.synth-ace-editor{
+    .ace-editor { 
+        margin: 0;
+        min-height: 280px;
+    }
+}
+
+.synth-padding,
+.synth-border{
+    label,
+    input{
+        float: left;
+        display: inline-block;
+        width: 60px !important;
+    }
+    label{
+        text-align: right;
+    }
+    &:after{
+        clear: both;
+        content: ".";
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+}
+
+.post-type-syn_rest_reservation{
+    #post-body-content{
+        #titlediv{
+            display: none;
+            padding: 0;
+        }
+    }
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 40%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 40% 10px 10px; }
+
+.plugin-version{
+    float: right;
+}
+
+/* =SyntaxThemes modal
+-------------------------------------------------------------- */
+.synth-modal-background{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;    
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: 10000;    
+}
+.synth-modal{
+    position: fixed;
+    top: 50px;
+    right: 20%;
+    bottom: 50px;
+    left: 20%;  
+    min-height: 660px;
+    min-width: 760px;
+    background-color: #ffffff;
+    z-index: 10001;    
+
+    &.fullscreen{
+        position: fixed;
+        top: 50px;
+        right: 8%;
+        bottom: 50px;
+        left: 8%;  
+        min-height: 660px;
+        min-width: 60%;
+        width: 85%;
+        background-color: #ffffff;
+        z-index: 10001;    
+    }
+
+    .synth-modal-content{
+        background-color: #ffffff;
+
+        .synth-modal-content-header {
+            position: relative;
+            border-bottom: 1px solid #e4e4e4;
+            height: 56px;
+            line-height: 56px;
+
+            h4{
+                display: inline-block;
+                margin: 0;
+                font-weight: normal;
+                font-size: 180%;
+                color: #555555; 
+                vertical-align: middle;
+            }
+            .synth-modal-icon{
+                font-size: 32px;
+                width: 32px;
+                height: 32px;    
+                display: inline-block;
+                vertical-align: middle;
+                margin: 0 15px;
+            }            
+            .close-button{
+                position: absolute;
+                background: transparent url(../images/modal-close.png) top left no-repeat;
+                height: 26px;
+                width: 26px;  
+                top: 16px;
+                right: 15px;
+
+                &:hover{
+                    background: transparent url(../images/modal-close-hover.png) top left no-repeat;
+                }
+            }
+        }
+        .synth-modal-inner-content{  
+            position: absolute;
+            top: 57px;   
+            right: 0;
+            left: 0;
+            bottom: 80px;
+            padding: 20px 10px;
+            overflow-y: auto;
+        }
+        .synth-modal-inner-footer{
+            position: absolute;
+            height: 80px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            border-top: 1px solid #dfdfdf;
+            background-color: #f5f5f5;
+
+            .modal-button{
+                position: absolute;
+                bottom: 28px;
+                right: 15px;
+            }
+        }
+    }
+}
+
+/* =SyntaxThemes Modal Content
+-------------------------------------------------------------- */
+.synth-modal-content{
+    .control-field{
+        border: 1px solid #e4e4e4;
+        padding: 0 15px;
+        margin: 0 0 10px 0;
+
+        h3{
+            margin-top: 0;
+        }  
+        h4{
+            margin: 10px 0;
+        }
+        label{
+            width: 18%;
+            display: inline-block;
+        }
+        input[type='text']{
+            width: 70%;
+            margin-bottom: 6px;
+        }
+        select{
+            width: 40%;
+        }
+        textarea{
+            width: 100%;
+        }
+        .upload-image-view{
+            display: block;
+            max-width: 500px;
+            max-height: 200px;
+        }       
+    }
+} 
+
+/* =Restaurant Dashboard
+-------------------------------------------------------------- */
+#restaurant_dashboard{
+    .section-introduction,
+    .section-information{
+        .clearfix();
+    }    
+    .column-image,
+    .column-text{
+        width: 50%;
+        display: inline-block;
+        float: left;
+        padding: 0 2%;
+        .box-sizing(border-box);
+
+        p{
+            font-size: 18px;
+            color: #999999;
+        }
+    }
+    .column-image{
+        width: 40%;
+        text-align: center;
+    }
+    .main-image{
+        width: 700px;
+    }
+    .main-title{
+        font-size: 54px;
+        line-height: 1.2em;
+        font-weight: 300;
+        margin: 80px 0 0 0;
+    }
+    
+    .column-features,
+    .column-addons,
+    .column-themes{
+        width: 33%;
+        display: inline-block;
+        float: left;
+        padding: 0 2%;
+        .box-sizing(border-box);
+    }
+}
+
+/* =Restaurant Meals List
+-------------------------------------------------------------- */
+.wp-list-table{
+    .column-thumbnail{
+        width: 50px;
+
+        .thumbnail,
+        .no-image{
+            display: block;
+            height: 50px;
+            width: 50px;
+        }
+    }
+}
+
+/* =Restaurant Reservation List
+-------------------------------------------------------------- */
+.wp-list-table{  
+    #reservation-name{
+        width: 12%;
+    }
+    #reservation-guests{
+        width: 10%;
+    }
+    #reservation-phone{
+        width: 10%;
+    }
+    #reservation-arrival{
+        width: 15%;
+    }
+    #reservation-status{
+        width: 8%;
+    }
+    #reservation-actions{
+        width: 7%;
+    }
+
+    .reservation-email{
+        .reservation-notes{
+            margin: 5px 0 0 0;
+            font-size: 95%;
+        }
+        .email-icon{
+            font-size: 95%;
+            color: #b6b6b6;
+            margin: 0 5px 0 0;
+        }
+    }
+}
+
+.edit-reservation-button,
+.delete-reservation-button{
+    width: 32px !important;
+    height: 32px !important;
+    line-height: 32px !important;
+    text-align: center;
+}
+
+.type-syn_rest_reservation{
+    .column-reservation-status{
+        span{
+            display: inline-block;
+            font-weight: bold;
+            padding: 5px 0;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .status-draft,
+    .status-trash{
+        color: #555555;
+        background-color: #cacaca;
+        border: 1px solid #808080;
+    }
+    .status-pending{
+        color: #f99406;
+        background-color: #ffd9a3;
+        border: 1px solid #f99406;
+    }
+    .status-confirmed{
+        color: #409003;
+        background-color: #c5efa4;
+        border: 1px solid #5cb31a;
+    }
+    .status-rejected{
+        color: #d80a19;
+        background-color: #ffa48f;
+        border: 1px solid #d32b04;
+    }
+    .status-complete{
+        color: #555555;
+        background-color: #555555;
+        border: 1px solid #555555;
+    }
+}
+#restaurant_reservation_status_metabox .inside {
+    margin: 0;
+    padding: 0;
+
+    .field-control{
+        padding: 6px 10px 8px;
+    }
+}
+#restaurant_reservation_status_metabox #reservation_publishing{
+    padding: 12px;
+}
+
+#ui-datepicker-div,
+#ui-timepicker-div{
+    z-index: 1000 !important;
+} 
+
+#restaurant_customer_details_metabox{
+
+    label{
+        &.error{
+            font-size: 90%;
+            color: red;
+            width: 70%;
+
+            &:before{
+                display: inline;
+                width: auto;
+                height: auto;
+                line-height: normal;
+                vertical-align: baseline;
+                background-image: none;
+                background-position: 0% 0%;
+                background-repeat: repeat;
+                margin-top: 0;
+                font-family: FontAwesome;
+                font-weight: normal;
+                font-style: normal;
+                text-decoration: inherit;
+                -webkit-font-smoothing: antialiased;
+                content: "\f057";
+                margin-right: 4px;
+            }
+        }
+    }
+    .error{
+        border-color: red;
+    }    
+}
+
+
+/* =Restaurant Scheduler
+-------------------------------------------------------------- */
+#schedule_container{
+    .scheduler{
+        margin: 0 0 20px 0;
+        width: 60%;
+        background-color: #ffffff;
+
+        .schedule-header{
+            border: 1px solid @admin_border_color;
+            padding: 10px;
+            line-height: 24px;
+            .clearfix();
+
+            .toggle-schedule-button,
+            .delete-schedule-button{
+                float: right;
+                text-decoration: none;
+                font-size: 18px;
+                margin: 3px 0 0 0;
+            }
+            .toggle-schedule-button{
+                margin: 3px 5px 0 0;
+                .syn-icon('\f139');
+            }
+            .delete-schedule-button{
+                color: red;     
+                .syn-icon('\f057');
+            }
+            .schedule-days{
+                margin: 0 30px 0 0;
+            }
+            .days-icon,
+            .time-icon{
+                margin: 0 5px 0 0;
+            }
+        }
+        .schedule-content{
+            border: 1px solid @admin_border_color;
+            border-top: 0;
+            padding: 10px;
+
+            &.closed{
+                display: none;
+            }
+        }
+        .weekdays{
+            ul{
+                margin: 20px 0;
+                padding: 0;
+                .clearfix();
+
+                li{
+                    width: 14.2%;
+                    display: inline-block;
+                    float: left;
+                }
+            }
+
+        }
+
+        &.closed{
+            .schedule-header{
+                .toggle-schedule-button{ 
+                    .syn-icon('\f13a');
+                }
+            }
+            .schedule-content{
+                display: none;
+            }
+        }
+    }
+}
+
+/* =Restaurant Notifications
+-------------------------------------------------------------- */
+#email_template_tags_list{
+    margin: 0 0 30px 0;
+    padding: 0;
+    list-style: none;
+
+    .template-tag-item{
+        background-color: #ffffff;
+        border-left: 4px solid #11aae2;       
+        padding: 10px 30px;
+    }
+    .tag-name{
+        display: inline-block;
+        font-weight: bold;
+        width: 190px;
+    }
+    .tag-description{
+        display: inline-block;
+    }
+}
+
+
+#reservation_notes_field{
+    label,
+    textarea{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+        max-width: 100%;
+        min-height: 300px;
+    }
+}
+
+/* =Metabox Columns
+-------------------------------------------------------------- */
+.metabox-columns{
+    .clearfix();
+
+    .column{
+        float: left;
+        display: inline-block; 
+        width: 50%;
+    }
+
+    .metabox-content{
+        label{
+            display: inline-block;
+            width: 18%;
+        }
+        input[type="text"]{
+            //width: 50%;
+        }
+    }
+}
+
+#restaurant_reservation_status_metabox{
+
+}
+.status-light{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: #666666;
+    vertical-align: middle;
+    margin: 0 0 0 5px;
+    .border-radius(11px);
+
+    &.status-draft{
+        background-color: #555555; 
+    }
+    &.status-pending{
+        background-color: orange;
+    }
+    &.status-confirmed{
+        background-color: green;
+    }
+    &.status-rejected{
+        background-color: red;
+    }
+}
+
+#customer_details_metabox{
+    margin: 0 0 30px 0;
+
+    input[type="text"]{
+        width: 75%;
+
+        &:focus{
+            outline: 0;
+        }
+    }
+    input.error{
+        border: 1px solid red;
+    }
+    label.error{
+        display: block;
+        width: 75%;
+        margin-left: 19%;
+        color: red;
+    }
+}
+
+#customer_notes_field{   
+
+    label,
+    textarea{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+        max-width: 100%;
+        min-height: 260px;
+    }
+}
+
+/* =Restaurant Menus
+-------------------------------------------------------------- */
+
+#syntaxthemes_restaurant_menus{
+
+    .clearfix();
+
+    .column{
+        float: left;
+        display: inline-block; 
+        width: 50%;
+    }
+
+    .metabox-content{
+        label{
+            display: inline-block;
+            width: 18%;
+        }
+        input[type="text"]{
+            //width: 50%;
+        }
+    }
+    .settings-content{
+        label{
+            display: inline-block;
+            width: 18%;
+        }
+        input[type="text"]{
+            //width: 50%;
+        }
+    }
+}
+
+#syn_shortcode_restaurant_menu{
+    height: 100%;
+
+    #syn_restaurant_menu_ids{
+        max-height: 350px;
+        overflow-y: scroll;
+    }
+    label{
+        width: auto;
+
+        span{
+            margin-right: 10px;
+        }
+    }
+    .meal-title{
+        font-weight: bold;
+    }
+}
+
+/* =Restaurant Menus
+-------------------------------------------------------------- */
+#syn_restaurant_manager_addons{
+
+    .addons-list{
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    }
+    .addon-item{
+        display: table-cell;       
+        padding: 0 20px 20px 0;
+        width: 33.33333333%;
+    }    
+    .addon-block{   
+        border: 1px solid @admin_border_color;
+        background-color: #ffffff;
+        margin: 0 20px 20px 0;
+        .box-sizing(border-box);
+    }
+    .addon-title{
+        margin: 0;
+        padding: 20px;
+        border-bottom: 1px solid @admin_border_color;
+    }
+    .addon-content{
+        padding: 20px;
+        overflow: hidden;
+        border-bottom: 1px solid @admin_border_color;
+        .clearfix();
+
+        p:first-of-type{
+            margin-top: 0;
+        }
+    }
+    .addon-image{
+        float: left;
+        display: block;
+        margin: 0 20px 20px 0;
+        width: 150px;
+        height: 150px;
+    }
+    .addon-footer{
+        line-height: 28px;
+        padding: 20px;
+        background-color: #fcfafa;
+        .clearfix();
+
+        .read-more-link{
+            text-decoration: none;
+        }
+        .buy-now{
+            float: right;
+        }
+    }
+}
+
+/* =Event Log
+-------------------------------------------------------------- */
+.wp-list-table{
+
+    &.events{
+        th.column-event_type a{ 
+            text-align: center;
+        }
+        .column-author{
+            width: 16%;
+        }
+        .column-created_date{
+            width: 20%;
+        }
+        .column-event_type{
+            width: 6%;      
+            text-align: center;
+        }
+        .column-content{
+            > span{
+                margin: 0;
+            }
+            span{
+                margin: 0 5px 0 0;
+            }
+            .content{
+                margin: 5px 0 0 0;
+            }
+        }
+        .new-row{
+            background-color: #b6e592;
+        }        
+    }
+
+    .event-icon {
+        font-size: 20px;
+    }
+    .rman-mobile-phone{
+        font-size: 32px;
+    }
+
+    .sms{
+        .mobile-number{
+            font-weight: bold;
+            color: #2590EA;
+        }
+        .recipient{
+            font-weight: bold;
+        }
+    }
+    .email{
+        .email-subject{
+            display: block;
+            font-weight: bold;
+            margin: 7px 0 0 0 !important;
+        }
+        .email-address{
+            font-weight: bold;
+            color: #2590EA;
+        }
+        .recipient{
+            font-weight: bold;
+        }
+    }
+    .reservation_status{
+        .column-content{
+            .status-light{
+                height: 14px;
+                width: 14px;
+            }
+        }
+    }
+}
+
+
+/************************************************************* 
+    =Plugin Extensions
+************************************************************** */
+
+
+/* =Restaurant Email Plugin
+-------------------------------------------------------------- */
+
+/* =Customer Emails Metabox
+-------------------------------------------------------------- */
+#restaurant_customer_emails_metabox{
+    #email_subject{
+        width: 100%;
+    }
+}
+
+/* =Restaurant SMS Plugin
+-------------------------------------------------------------- */
+#restaurant_sms_emails_metabox{
+
+    #sms_content{
+        width: 100%;
+        max-width: 100%;
+        min-height: 150px;
+    }
+}

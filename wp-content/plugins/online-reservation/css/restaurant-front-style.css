@@ -1,0 +1,66 @@
+
+/*
+	TABLE OF CONTENTS
+	========================
+	1.	RESTAURANT RESERVATION
+*/
+
+
+/*##############################################
+	1.	RESTAURANT RESERVATION
+##############################################*/
+.olr_restaurant_wrapper p{
+	margin: 10px 0;
+}
+.olr_restaurant_wrapper .olr_label{
+	min-width: 200px;
+	display: inline-block;
+	font-weight: bold;
+}
+.olr_date_section,
+.olr_date_section{
+	margin-bottom: 24px;	
+}
+.olr_date_wrap,
+.olr_time_wrap{
+	display: inline-block;
+}
+.olr_restaurant_wrapper .olr_required,
+.olr_restaurant_wrapper .olr_requireds{
+	color: #C00;
+	font-size: 20px;
+}
+.olr_restaurant_wrapper #olr_restaurant_booking_button{
+	margin-top :20px;
+	padding: 10px;
+}
+.olr_captcha_response_error{
+	background-color: red;
+	color: white;
+}
+.olr_find_table_response{
+	background-color: #FF0;
+	padding: 10px;
+	display: none;
+}
+#olr_restaurant_response{
+	background-color: #C30;
+	padding: 10px;
+	display: none;
+	color: #FFF;
+}
+
+
+.olr_response_result{
+	font-weight: bold;
+}
+.personal_information_wrapper,
+.personal_information_container{
+	display: none;
+}
+#olr_restaurant_booking_button,
+#olr_send_enquiry_button{
+	display: none;
+}
+	
+

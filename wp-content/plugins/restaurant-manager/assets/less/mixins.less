@@ -1,0 +1,40 @@
+/* 
+    Created on : 16-Oct-2014, 19:54:37
+    Author     : Ryan
+*/
+.clearfix(){
+    &:before,
+        &:after{
+        clear: both;
+        content:'\0020'; 
+        display:block; 
+        overflow:hidden; 
+        visibility:hidden; 
+        width:0; 
+        height:0; 
+    }
+}
+.syn-icon(@icon){
+    font-family: 'restaurant-manager-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    
+    &:before{
+        content: @icon;
+    }
+}
+.box-sizing (@type: border-box) {
+    -webkit-box-sizing: @type;
+    -moz-box-sizing: @type;
+    box-sizing: @type;
+}
+.border-radius (@radius: 5px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+}

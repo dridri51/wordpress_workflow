@@ -1,0 +1,432 @@
+/*
+	TABLE OF CONTENTS
+	========================
+	1.	RESTAURANT RESERVATION
+*/
+
+/*##############################################
+	1.	RESTAURANT RESERVATION
+		1.	ADMIN MENU
+		2.	RESTAURANT ALL BOOKINGS		
+		3.	RESTAURANT SETTING
+		4.	EDIT POST	
+		5.	POST LIST ( RESERVATION LIST )
+		6.	MEDIA QUERIES
+##############################################*/
+
+
+/*====================================
+	1.	ADMIN MENU
+====================================*/
+#menu-posts-olr_restaurant .wp-menu-image::before{
+	/*font-family:  FontAwesome !important;
+  	content: "\f000";*/
+}
+#menu-posts-olr_restaurant .wp-submenu li a::before{
+	padding-right: 10px;
+	font-size: 15px;
+}
+	
+
+#menu-posts-olr_restaurant .wp-submenu li:nth-child(2) a::before{
+	font-family:  FontAwesome !important;
+  	content: "\f073";
+	font-weight: 100 !important;
+
+}
+#menu-posts-olr_restaurant .wp-submenu li:nth-child(3) a::before{
+	font-family: "dashicons";
+  	content: "\f108";
+	font-size: 20px;
+    vertical-align: middle;
+	margin-left: -3px;
+	font-weight: 100 !important;
+
+}
+
+
+/*====================================
+	2.	RESTAURANT ALL BOOKINGS		
+====================================*/
+.section_title{
+	margin: 50px 0 0;
+	color: #000;
+	font-size: 25px;
+}
+.post-state{
+	display: none;
+}
+.resto-admin-title{
+	margin: 30px 0 50px !important;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+/*====================================
+	3.	RESTAURANT SETTING
+		1.	NAVIGATION BAR
+		2.	PRIMARY CONTENT
+		3.	SIDEBAR
+====================================*/
+
+/*====================================
+	1.	NAVIGATION BAR
+====================================*/
+.olr_admin_resto_wrapper .nav-tab-wrapper{
+
+}
+
+/*====================================
+	2.	PRIMARY CONTENT
+		1.	All TAB
+		2.	SCHEDULE TAB
+		3.	CAPTCHA TAB
+		4. 	TABLE TAB
+		5.	SECURITY
+		6.	SIDEBAR
+====================================*/
+.resto_admin_primary_content{
+	margin: 10px 0 20px 0 !important;
+	width: 60%;
+	min-width: 250px;
+	float: left;
+}
+.resto_admin_primary_content h2,
+.olr_admin_resto_wrapper .resto_admin_sidebar h2{
+	font-size: 25px;
+	font-weight: 100;
+	padding: 10px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+
+	background-color: #CCC;
+	/*for chrome and safari*/
+	background: -webkit-gradient(linear,0 0, 0 80%,color-stop(1%,#FFF), color-stop(80%,#CCC));
+	/*for firefox*/
+	background: -moz-linear-gradient(top,#FFF 1%,#CCC 80%);
+	/*for opera 11.10+ */
+	background: -o-linear-gradient(top,#FFF 1%,#CCC 80%);
+	/* for IE 10+ */
+	background: linear-gradient(top,#FFF 1%,#CCC 80%);
+	
+	
+}
+.resto_admin_primary_content h3{
+	background-color: #ccc;
+    font-size: 22px;
+    font-weight: 100;
+    margin: 10px auto;
+    min-width: 200px;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+	
+}
+.resto_admin_primary_content label{
+	float: left;
+    min-width: 200px;
+    width: 30%;
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.resto_admin_primary_content .sub-text{
+	font-weight: 100;
+	font-size: 12px;
+}
+.resto_admin_primary_content select,
+.resto_admin_primary_content input[type="text"],
+.resto_admin_primary_content textarea{
+	min-width: 250px;
+	width: 80%;
+	max-width: 380px;
+	margin-bottom: 20px;
+}
+.resto_admin_primary_content select,
+.resto_admin_primary_content input[type="text"]{
+	height: 40px;
+}
+
+
+.resto_admin_primary_content hr{
+	margin: 20px 0;
+}
+.resto_admin_primary_content .height_20px{
+	margin-bottom: 20px;
+}
+.resto_admin_primary_content .height_10px{
+	margin-bottom: 10px;
+	clear:both;
+}
+
+.float-none{
+	clear: both;
+}
+.common-container{
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.medium-long{
+	min-width: 100px;
+	display: inline-block;
+}
+.olr-heading-title{
+	text-transform: capitalize;
+	margin: 50px 0 5px;
+}
+.margin-top{
+	margin-top: 50px;
+}
+.no-margin-top{
+	margin-top: 0 !important;
+}
+.no-margin{
+	margin: 0 !important;	
+}
+
+
+.resto_admin_primary_content .head-parent,
+.resto_admin_sidebar .head-parent{
+	-webkit-border-top-left-radius: 15px;
+  	-moz-border-radius-topleft: 15px;
+	border-top-left-radius: 15px;
+	
+	-webkit-border-top-right-radius: 15px;
+  	-moz-border-radius-topright: 15px;
+	border-top-right-radius: 15px;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.resto_admin_primary_content .head-parent i,
+.resto_admin_sidebar .head-parent i{
+	position: relative;
+	float: right;
+}
+.resto_admin_primary_content .head-parent .fa-caret-up,
+.resto_admin_sidebar .head-parent .fa-caret-up{
+	display: none;
+}
+
+.resto_admin_primary_content .head-parent-content{
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	padding: 20px;
+	
+}
+.resto_admin_primary_content .dashicons-clock::before,
+.resto_admin_primary_content .dashicons-groups::before,
+.resto_admin_primary_content .dashicons-businessman::before,
+.resto_admin_sidebar .dashicons-format-video::before,
+.resto_admin_primary_content .dashicons-email::before{
+	font-size: 29px !important;
+    padding-right: 20px !important;
+}
+
+.resto_admin_primary_content .table-size::before{
+	content: "\ea61";
+}
+
+
+
+
+
+
+
+/*====================================
+	 1.	All TAB
+====================================*/
+#owner_email{
+	min-width: 50%;
+}
+.setting_section_title{
+	color: #00F;
+	font-size: 25px;
+}
+.email-longer-field{
+	min-width: 80%;
+}
+.email-medium-field{
+	min-width: 50%;
+	margin-bottom: 10px;
+}
+.image-preview{
+	display: block;
+}
+
+/*====================================
+	 2.	SCHEDULE TAB
+====================================*/
+.resto_admin_primary_content .day-title{
+}
+.resto_admin_primary_content .open-time-wrap{
+}
+
+
+/*====================================
+	 3.	CAPTCHA TAB
+====================================*/
+.captcha_public_key,
+.captcha_private_key{
+	min-width: 50%;
+}
+
+/*====================================
+	 4. 	TABLE TAB
+====================================*/
+#display_table_field_button{
+	display: block;
+	margin: 10px 0;
+}
+
+/*====================================
+	5.	SECURITY
+====================================*/
+.resto_admin_primary_content .head-parent-security{
+	padding: 0;
+}
+.resto_admin_primary_content .head-parent-security .field{
+	padding: 20px;
+	margin: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+/*====================================
+	 6.	SIDEBAR
+====================================*/
+.olr_admin_resto_wrapper .resto_admin_sidebar{
+	float: left;
+	width: 35%;
+	min-width: 250px;
+	margin-top: 10px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+	
+.resto_admin_sidebar .youtube-container{
+	position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 60%;
+}
+/*.resto_admin_sidebar .youtube-container .video{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
+.resto_admin_sidebar .youtube-container a{
+	text-decoration: none;
+}
+.resto_admin_sidebar .youtube-container img{
+	width: 100%;
+}
+.resto_admin_sidebar .dashicons-video-alt3{
+	font-size: 100px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+	color: #000;
+}
+
+
+/*====================================
+	4.	EDIT POST	
+====================================*/
+#reservation-information-wrap label{
+	min-width: 150px;
+	display: inline-block;
+}
+#reservation-information-wrap input,
+#reservation-information-wrap textarea{
+	width: 50%;
+	min-width: 300px;
+	
+}
+#reservation-information-wrap br,
+#reservation-information-wrap hr
+{
+	margin: 10px 0;
+}
+
+/*=========================================
+	5.	POST LIST ( RESERVATION LIST )
+=========================================*/
+.inline-edit-col-right,
+.inline-edit-col-left{
+	display: none;
+}
+#olr-quick-menu-update-button{
+	padding: 5px;
+	background-color: #06F;
+	color: #FFF;
+	width: 100px !important;
+	min-width: 0 !important;
+}
+.quick-edit_response{
+	display: none;
+	background-color:#F60;
+	color: white !important;
+	padding:10px;
+	width: 200px;
+}
+.inline-edit-save .button-primary{
+	display: none !important;
+}
+.date-filter-link{
+	margin:0 10px;
+	text-decoration: none;
+}
+td .pending{
+	font-weight: bold;
+	color: #390;
+}
+td .confirmed{
+	font-weight: bold;
+	color: #F00;
+}
+td .closed{
+	font-weight: bold;
+	color: #CCC;
+}
+td .enquiry{
+	font-weight: bold;
+	color: #00C;
+}
+
+/*=========================================
+	6.	MEDIA QUERIES
+=========================================*/
+@media (max-width: 1000px) {
+	.resto_admin_primary_content{
+		float: none;
+		margin: 20px auto !important;
+		width: 90%;
+	}
+	.olr_admin_resto_wrapper .resto_admin_sidebar{
+		float: none;
+		margin: 20px auto !important;
+		width: 90%;
+	}
+}
+
+	/*for IE 9*/
+	@media screen and (max-width: 1000px){	
+		.resto_admin_primary_content{
+			float: none;
+			margin: 20px auto !important;
+			width: 90%;
+		}
+		.olr_admin_resto_wrapper .resto_admin_sidebar{
+			float: none;
+			margin: 20px auto !important;
+			width: 90%;
+		}
+	}
