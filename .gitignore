@@ -1,0 +1,3 @@
+#ignorer le dossier node_module
+node_modules/
+.sass-cache/
