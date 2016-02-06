@@ -1,6 +1,0 @@
-Mon Apr 20 15:21:49 2015: Poedit non ha trovato alcun file nelle cartelle analizzate.
-Mon Apr 20 15:21:49 2015: Le voci nel catalogo sono probabilmente non corrette.
-Mon Apr 20 15:21:49 2015: Aggiornamento del catalogo non riuscito. Fai clic su 'Dettagli >>' per i dettagli.
-Mon Apr 20 15:21:49 2015: Poedit non ha trovato alcun file nelle cartelle analizzate.
-Mon Apr 20 15:21:49 2015: Le voci nel catalogo sono probabilmente non corrette.
-Mon Apr 20 15:21:49 2015: Aggiornamento del catalogo non riuscito. Fai clic su 'Dettagli >>' per i dettagli.
